@@ -29,6 +29,7 @@ sudo reboot
 ```
 
 > ⚠️ Stay on version 22.04. Do not upgrade to 24.04 — SIFT/SaltStack is tested and maintained for 22.04, for now.
+> 💡 **Note:** It is also recommended to install the Guest Addons package, or the equivalent for other virtualization environments, which will allow you to use the clipboard and shared folder features.
 
 ---
 
@@ -94,7 +95,7 @@ wget https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.14.0/s
 sudo dpkg -i --force-depends --force-overwrite sleuthkit-java_4.14.0-1_amd64.deb
 ```
 
-> ** Note: ** the official `.deb` expects old dependency names (`libewf2`, etc.) that do not exist when using the `gift` PPA. Actual libraries are present (just the name is different), so it's safe to use `--force-depends` here.
+> 💡 ** Note: ** the official `.deb` expects old dependency names (`libewf2`, etc.) that do not exist when using the `gift` PPA. Actual libraries are present (just the name is different), so it's safe to use `--force-depends` here.
 
 Confirm:
 ```bash
@@ -192,7 +193,7 @@ If you need Sleuth Kit CLI tools (`mmls`, `fsstat`, `fls`, `icat`, etc.) for man
 sudo apt install -y build-essential autoconf libtool git pkg-config
 ```
 
-> **Note:** It's normal to see the warning `sleuthkit-java : Depends: libewf2 ... but it is not going to be installed` followed by `E: Unmet dependencies` here (and in any other future `apt install`). This is just `apt` reminding you of the held state of `sleuthkit-java`, configured intentionally in section 3.3 — the requested packages are normally installed below this warning (confirm that `... is already the newest version` or `Setting up ...` appears for each one). It's not a new error and doesn't prevent anything.
+> 💡 **Note:** It's normal to see the warning `sleuthkit-java : Depends: libewf2 ... but it is not going to be installed` followed by `E: Unmet dependencies` here (and in any other future `apt install`). This is just `apt` reminding you of the held state of `sleuthkit-java`, configured intentionally in section 3.3 — the requested packages are normally installed below this warning (confirm that `... is already the newest version` or `Setting up ...` appears for each one). It's not a new error and doesn't prevent anything.
 
 ```bash
 cd ~
