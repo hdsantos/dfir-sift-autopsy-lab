@@ -29,6 +29,7 @@ sudo reboot
 ```
 
 > ⚠️ Stay on version 22.04. Do not upgrade to 24.04 — SIFT/SaltStack is tested and maintained for 22.04, for now.
+
 > 💡 **Note:** It is also recommended to install the Guest Addons package, or the equivalent for other virtualization environments, which will allow you to use the clipboard and shared folder features.
 
 ---
