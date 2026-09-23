@@ -37,3 +37,10 @@ This provides a known-good recovery point before exercises and evidence analysis
 ## Important
 
 Do not use the course evidence files as your first installation test. Use a small known-good test image so that installation problems are not confused with evidence-analysis problems.
+
+## Next steps
+
+After completing the validation:
+
+1. If you encounter any problems, consult the
+   [Troubleshooting Guide](troubleshooting.md).
