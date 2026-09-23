@@ -1,18 +1,18 @@
-# Guia de Instalação — SIFT Workstation + Autopsy 4.x
-### Preparação para a Aula 2 · Forense Digital
+# Installation guide — SIFT Workstation + Autopsy 4.x
+### Preparation for class 2 · Digital Forensics
 
 ---
 
 ## Summary
 
-Vai instalar o **SIFT Workstation** (o conjunto de ferramentas forenses da SANS) sobre uma **Ubuntu 22.04 Desktop** limpa, e depois instalar o **Autopsy 4.x** manualmente (a versão gráfica atual, em vez da 2.x legada que vem por defeito nas distribuições Linux — a 2.x tem bugs conhecidos e já não é recomendada).
+You will install **SIFT Workstation** (SANS's forensic toolset) on a clean **Ubuntu 22.04 Desktop**, and then manually install **Autopsy 4.x** (the current graphical version, instead of the legacy 2.x that comes standard in Linux distributions — 2.x has known bugs and is no longer recommended).
 
-**Tempo estimado:** 60–90 minutos (depende da velocidade da internet).
+**Estimated time:** 60–90 minutes (depends on internet speed).
 
-**Requisitos da máquina:**
-- Máquina virtual (VirtualBox, VMware ou similar) ou máquina dedicada
-- Pelo menos 4 GB RAM, 40 GB de disco livres
-- Ligação à internet estável
+**Machine requirements:**
+- Virtual machine (VirtualBox, VMware or similar) or dedicated machine
+- At least 4 GB RAM, 40 GB of free disk space
+- Stable internet connection - be careful when using eduroam
 
 ---
 
