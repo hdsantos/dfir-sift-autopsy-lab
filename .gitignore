@@ -1,0 +1,43 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python / scripts
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs / temporary output
+*.log
+tmp/
+temp/
+
+# Forensic evidence and large captures — do not commit by default
+*.E01
+*.E02
+*.Ex01
+*.raw
+*.dd
+*.img
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.mem
+*.dmp
+*.pcap
+*.pcapng
+*.aff
+*.aff4
+
+# Archives commonly used to distribute evidence
+*.7z
+*.zip
+*.tar
+*.gz
